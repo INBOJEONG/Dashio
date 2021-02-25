@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <title>ITNOMADS</title>
+
+  <!-- Favicons -->
+  <link href="img/itnomads_logo.jpg" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link href="lib/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Dashio
+    Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <section id="container">
+    <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <a href="index.html" class="logo"><b><span>IT</span>NOAMDS</b></a>
+      <!--logo end-->
+      <div class="nav notify-row" id="top_menu">
+        <!--  notification start -->
+        <ul class="nav top-menu">
+          <!-- settings start -->
+          <!-- inbox dropdown end -->
+          <!-- notification dropdown start-->
+          <li id="header_notification_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+              <i class="fa fa-bell-o"></i>
+              <span class="badge bg-warning">1</span>
+              </a>
+            <ul class="dropdown-menu extended notification">
+              <div class="notify-arrow notify-arrow-yellow"></div>
+              <li>
+                <p class="yellow">1개의 알림이 있습니다.</p>
+              </li>
+              <li>
+                <a href="index.html#">
+                  <span class="label label-danger"><i class="fa fa-bolt"></i></span>
+                  엔지니어 배정	
+                  <span class="small italic">신규 구축</span>
+                  </a>
+              </li>
+              <li>
+                <a href="notice.html">더보기..</a>
+              </li>
+            </ul>
+          </li>
+          <!-- notification dropdown end -->
+        </ul>
+        <!--  notification end -->
+      </div>
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a class="logout" href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><img src="img/no_profile.gif" class="img-circle" width="80"></a></p>
+          <h5 class="centered">User name</h5>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-desktop"></i>
+              <span>일정관리</span>
+              </a>
+            <ul class="sub">
+              <li><a href="site.html">사이트일정</a></li>
+              <li><a href="car.html">차량관리</a></li>
+              <li><a href="notice.html">알림</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a class="active" href="javascript:;">
+              <i class="fa fa-cogs"></i>
+              <span>재고관리</span>
+              </a>
+            <ul class="sub">
+              <li><a href="mainoffcie.html">본사재고</a></li>
+              <li class="active"><a href="testroom.html">테스트실 재고</a></li>
+              <li><a href="delivery.html">납품장비</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="backup.html">
+              <i class="fa fa-book"></i>
+              <span>백업</span>
+              </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-tasks"></i>
+              <span>관리자기능</span>
+              </a>
+            <ul class="sub">
+              <li><a href="user.html">계정관리</a></li>
+              <li><a href="engineer.html">엔지니어 배정</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <h3><i class="fa fa-angle-right"></i>테스트실 재고</h3>
+        <!-- BASIC FORM ELELEMNTS -->
+        <div class="row mt">
+          <div class="col-lg-12">
+            
+              
+              <form class="form-horizontal style-form">
+                <div class="form-group">
+                 
+                  <div class="col-sm-80">
+                    <table class="table table-bordered table-hover table-resizable">
+					<thead class="bg-skyblue" data-gubun="object">
+					<tr bgcolor=gray>
+					
+						<th class="text-center"><font color="white">No.</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">제품명</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">시리얼</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">반입날짜</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">반입담당자</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">반출날짜</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">반출담당자</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">위치</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">장비이력</font><i class="orderby"/></th>
+						<th class="text-center"><font color="white">비고</font><i class="orderby"/></th>
+						
+						
+					</tr>
+					</thead>
+					<tbody id ="userInfoBody data-gubun="object">
+						<tr class="warning">
+							<td class="text-center no">1</td>
+							<td class="text-center product">XTM8000</td>
+							<td class="text-center serial">WXT801U008AHKA12070003 A0</td>
+							<td class="text-center bring">-</td>
+							<td class="text-center bringper">-</td>
+							<td class="text-center export">-</td>
+							<td class="text-center exportper">-</td>
+							<td class="text-center location">서버실</td>
+							<td class="text-center record">본사방화벽</td>
+							<td class="text-center remark">-</td>
+						</tr>
+						<tr class="warning">
+							<td class="text-center no">5</td>
+							<td class="text-center product">XTM365</td>
+							<td class="text-center serial">XTM365A008AHKA19020101 F5</td>
+							<td class="text-center bring">2020.08.21</td>
+							<td class="text-center bringper">이용진</td>
+							<td class="text-center export">-</td>
+							<td class="text-center exportper">-</td>
+							<td class="text-center location">A-2</td>
+							<td class="text-center record">2020.07.21 다우기술 장비 업그레이드 후 회수</td>
+							<td class="text-center remark">정상/2020.08.21</td>	
+						</tr>
+						<tr class="warning">
+							<td class="text-center no">6</td>
+							<td class="text-center product">XTM365</td>
+							<td class="text-center serial">XTM365A008AHKA18030059 F5</td>
+							<td class="text-center bring">2020.09.14</td>
+							<td class="text-center bringper">손현태</td>
+							<td class="text-center export">-</td>
+							<td class="text-center exportper">-</td>
+							<td class="text-center location">A-2</td>
+							<td class="text-center record">2020.07.21 다우기술 장비 업그레이드 후 회수</td>
+							<td class="text-center remark">정상/2020.09.14</td>	
+						</tr>
+						<tr class="warning">
+							<td class="text-center no">10</td>
+							<td class="text-center product">XTM1000</td>
+							<td class="text-center serial">XTM101S008AHKA16050007 D5</td>
+							<td class="text-center bring">2021.02.15</td>
+							<td class="text-center bringper">안우진</td>
+							<td class="text-center export">-</td>
+							<td class="text-center exportper">-</td>
+							<td class="text-center location">A-2</td>
+							<td class="text-center record">2021.02.15 해피메이드 장애 장비로 신규장비 구매 후 장애 장비 회수, 수리후 입고(안우진)</td>
+							<td class="text-center remark">정상/2020.11.12</td>	
+						</tr>
+						<tr class="warning">
+							<td class="text-center no">11</td>
+							<td class="text-center product">XTM1000F</td>
+							<td class="text-center serial">XTM101F00ABHKA18020032 D5</td>
+							<td class="text-center bring">2020.11.12</td>
+							<td class="text-center bringper">임근섭</td>
+							<td class="text-center export">-</td>
+							<td class="text-center exportper">-</td>
+							<td class="text-center location">A-2</td>
+							<td class="text-center record">인도네시아느가라은행(BNI)임대 후 반납장비</td>
+							<td class="text-center remark">정상/2020.11.12</td>
+						</tr>
+					</tbody>
+				</table>
+                  </div>
+              </form>
+            
+          </div>
+          <!-- col-lg-12-->
+        </div>
+        
+
+      </section>
+      <!-- /wrapper -->
+    </section>
+    <!-- /MAIN CONTENT -->
+    <!--main content end-->
+    <!--footer start-->
+    <footer class="site-footer">
+      <div class="text-center">
+        <p>
+          &copy; Copyrights <strong>ITNOMADS</strong>. All Rights Reserved
+        </p>
+        <a href="calendar.html#" class="go-top">
+          <i class="fa fa-angle-up"></i>
+          </a>
+      </div>
+    </footer>
+    <!--footer end-->
+  </section>
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery-ui-1.9.2.custom.min.js"></script>
+  <script src="lib/fullcalendar/fullcalendar.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="lib/jquery.scrollTo.min.js"></script>
+  <script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <!--common script for all pages-->
+  <script src="lib/common-scripts.js"></script>
+  <!--script for this page-->
+  <script src="lib/calendar-conf-events.js"></script>
+
+</body>
+
+</html>
